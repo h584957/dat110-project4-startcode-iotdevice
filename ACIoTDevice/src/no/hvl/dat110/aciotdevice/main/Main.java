@@ -1,11 +1,12 @@
 package no.hvl.dat110.aciotdevice.main;
 
+
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.application.Platform;
 import no.hvl.dat110.aciotdevice.controller.AccessController;
 import no.hvl.dat110.aciotdevice.controller.MicroController;
 import no.hvl.dat110.aciotdevice.pins.IOPins;
@@ -13,7 +14,6 @@ import no.hvl.dat110.aciotdevice.pins.Wiring;
 import no.hvl.dat110.aciotdevice.ui.LED;
 import no.hvl.dat110.aciotdevice.ui.PIRSensor;
 import no.hvl.dat110.aciotdevice.ui.PushButton;
-import javafx.scene.control.Button;
 
 public class Main extends Application {
 
